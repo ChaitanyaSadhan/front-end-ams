@@ -31,7 +31,7 @@ export default function Home() {
     }
 
   return (
-      <div className=' bg-gradient-to-r from-cyan-500 to-blue-500 '>
+      <div className=' bg-gradient-to-r from-cyan-500 to-blue-500 h-screen'>
           <div className='mx-auto max-w-6xl py-10 w-full'>
 
               <nav
@@ -43,7 +43,7 @@ export default function Home() {
                               <li>
                                   <p
                                      className=" align-middle block m-3.5 text-white text-3xl  font-bold rounded  md:text-white-700 md:p-0 md:dark:text-white-500"
-                                     aria-current="page">Attendance Management System</p>
+                                     aria-current="page">Attendance Management System | ECE | RGUKT-Basar</p>
                               </li>
                           </ul>
                       </div>
@@ -78,7 +78,7 @@ export default function Home() {
                                           className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                           {it.idNumber}
                                       </th>
-                                      <td className="px-6 py-4">
+                                      <td className="px-6 py-4 dark:text-white">
                                           {it.name}
                                       </td>
 
